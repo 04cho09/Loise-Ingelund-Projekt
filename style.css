@@ -9,7 +9,17 @@ header{
 }
 
 nav{ 
-    display: list-item;
-   align-content: center;
+   display: list-item;
    justify-content: space-evenly;
+}
+
+nav a  {
+color: white;
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+padding: 25%;
+border:steelblue;
+background-color: 2D608B ;
+display: list-item;
+
 }
