@@ -1,25 +1,17 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
+* {
+  font-family:'Times New Roman', Times, serif
 }
 
-header{ 
-    justify-content:space-between;
-    flex-direction: column;
-
+header {
+  display: table-row;
+  flex-direction: column;
 }
 
-nav{ 
-   display: list-item;
-   justify-content: space-evenly;
+nav {
+  color:black;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  border: steelblue;
+  background-color:darkslateblue
 }
 
-nav a  {
-color: white;
-font-size: 18px;
-font-family: 'Times New Roman', Times, serif;
-padding: 25%;
-border:steelblue;
-background-color: 2D608B ;
-display: list-item;
-justify-content: space-evenly;
-}
