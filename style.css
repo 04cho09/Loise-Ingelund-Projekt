@@ -92,6 +92,9 @@ p + p {
     .flex:last-of-type div:first-child {
       background-image: url("jelly.jpg");
     }
+
+    
+
     .flex div:last-child {
       margin: 2rem;
       flex: 2;
@@ -142,6 +145,114 @@ p + p {
     }
   
 
+    .jellyfish.html 
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: steelblue;
+            min-height: 10vh;
+            padding: 0px 20px;
+          }
+          
+          nav {
+            display: flex;
+            gap: 20px;
+          }
+          
+          nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+          }
+          
+          p + p {
+            margin-top: 20px;
+          }
+
+
+          .Whales.html
+          header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: steelblue;
+            min-height: 10vh;
+            padding: 0px 20px;
+          }
+          
+          nav {
+            display: flex;
+            gap: 20px;
+          }
+          
+          nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+          }
+          
+          p + p {
+            margin-top: 20px;
+          }
+
+
+
+          
+          .climate.html
+          header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: steelblue;
+            min-height: 10vh;
+            padding: 0px 20px;
+          }
+          
+          nav {
+            display: flex;
+            gap: 20px;
+          }
+          
+          nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+          }
+          
+          p + p {
+            margin-top: 20px;
+          }
+
+          .squids.html
+          header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: steelblue;
+            min-height: 10vh;
+            padding: 0px 20px;
+          }
+          
+          nav {
+            display: flex;
+            gap: 20px;
+          }
+          
+          nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+          }
+          
+          p + p {
+            margin-top: 20px;
+          }
     
 
     
