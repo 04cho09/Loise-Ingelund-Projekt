@@ -290,6 +290,13 @@ aside > p {
   margin: 0.5rem;
 }
 
+p
+{
+  border: black;
+  padding: 25;
+}
+
+
 
 .stingray.html 
 .flex div:first-child {
