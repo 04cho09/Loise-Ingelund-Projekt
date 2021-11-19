@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: steelblue;
+  background-color:steelblue;
   min-height: 10vh;
   padding: 0px 20px;
 }
@@ -44,20 +44,36 @@ p + p {
 
 }
 
-.flex {
-    margin: 0;
+
+
+.flex.container
+{
     display: flex;
-    justify-content: right;
-    border: 2px solid #333;
-    margin-bottom: 2rem;
-  }
-  .flex div:first-child {
-    flex: 1;
-    background-size: cover;
-    background-position: center;
+    justify-content: space-evenly;
+
+}
+
+  img{
+      float: left;
   }
 
-  
+  .article
+  {
+      float: right;
+  }
+   
+  aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float:inline-start;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+  aside > p {
+    margin: .5rem;
+}
 
 
 
@@ -71,7 +87,7 @@ p + p {
       min-height: 100vh;
       font-family: Ubuntu, sans-serif;
       margin: 2rem;
-      background-color: hsl(250,10%,55%);
+      background-color:darkcyan;
     }
     .flex {
       margin: 0;
@@ -172,6 +188,53 @@ p + p {
             margin-top: 20px;
           }
 
+          .flex h3
+          {
+              font-size: 1.5rem;
+              padding: 10px;
+          }
+
+          .flex h2
+          {
+              font-size: 1rem;
+          }
+          * {
+            box-sizing: border-box;
+          }
+          body { 
+            min-height: 100vh;
+            font-family: Ubuntu, sans-serif;
+            margin: 1,5rem;
+            background-color: hsl(250,10%,55%);
+          }
+          .flex {
+            margin: 5px;
+            display: flex;
+            border: 5px solid #333;
+            background-color: #fff;
+            margin-bottom: 2rem;
+          }
+          .flex-column
+          {
+              justify-content: space-around;
+              align-content:space-around;
+          }
+
+          
+          aside {
+            width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float:inline-start;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+          }
+          aside > p {
+            margin: .5rem;
+        }
+        
+
 
           .Whales.html
           header {
@@ -199,9 +262,25 @@ p + p {
             margin-top: 20px;
           }
 
+          article
+          {
+            color: white;
+            font-size: 18px;
+            padding: 20px;
+          }
 
+          blue.whale.jpeg
+          {
+            
+              width: 250px;
+          
+          }
 
           
+
+
+
+
           .climate.html
           header {
             display: flex;
@@ -228,6 +307,21 @@ p + p {
             margin-top: 20px;
           }
 
+           
+          aside {
+            width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float:inline-start;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+          }
+          aside > p {
+            margin: .5rem;
+        }
+
+
           .squids.html
           header {
             display: flex;
@@ -253,7 +347,32 @@ p + p {
           p + p {
             margin-top: 20px;
           }
+
+          img.vampiresquid.jpg
+          {
+              height: 10px;
+              width: 15px;
+          }
+
+          .♡.jpg
+          {
+            width: 250px;
+        }
+
+        .stringray.html 
+        .ray.jpg {
+          width: 250px;
+         
+            background-image: url("ray.jpg");
+          
+         
+            background-image: url("sting.jpg");
+          }
+      
+      
+      
     
 
     
 
+        
