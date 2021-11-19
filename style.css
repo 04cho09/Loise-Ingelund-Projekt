@@ -73,7 +73,7 @@ body {
   min-height: 100vh;
   font-family: Ubuntu, sans-serif;
   margin: 2rem;
-  background-color:cadetblue;
+  background-color: cadetblue;
 }
 .flex {
   margin: 0;
@@ -243,7 +243,7 @@ p + p {
 }
 
 article {
-  color: white;
+  color: black;
   font-size: 18px;
   padding: 20px;
 }
@@ -290,21 +290,17 @@ aside > p {
   margin: 0.5rem;
 }
 
-p
-{
+p {
   border: black;
   padding: 25;
+  font-size: 17px;
 }
 
-
-
-.stingray.html 
-.flex div:first-child {
+.stingray.html .flex div:first-child {
   flex: 1;
   background-size: cover;
   background-position: center;
 }
-
 
 .flex div:last-child {
   margin: 2rem;
@@ -360,7 +356,3 @@ p
     min-height: 200px;
   }
 }
-
-
-
-
