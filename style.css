@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:steelblue;
+  background-color: steelblue;
   min-height: 10vh;
   padding: 0px 20px;
 }
@@ -30,349 +30,330 @@ p + p {
   margin-top: 20px;
 }
 
-
-
 .media {
   display: flex;
   gap: 20px;
 }
 
-.main
-{
-    display: flex;
-    align-content: space-around;
+.main {
+  display: flex;
+  align-content: space-around;
+}
 
+.flex.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  float: left;
+}
+
+.article {
+  float: right;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: inline-start;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+aside > p {
+  margin: 0.5rem;
+}
+
+.jellyfish.html * {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: Ubuntu, sans-serif;
+  margin: 2rem;
+  background-color:cadetblue;
+}
+.flex {
+  margin: 0;
+  display: flex;
+  border: 5px solid #333;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.flex div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+.flex:first-of-type div:first-child {
+  background-image: url("fish.jpg");
+}
+.flex:last-of-type div:first-child {
+  background-image: url("jelly.jpg");
+}
+
+.flex div:last-child {
+  margin: 2rem;
+  flex: 2;
+}
+.flex h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+.flex p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.flex p:last-of-type {
+  margin-bottom: 0;
+}
+.column {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+@media all and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .flex div {
+    flex: 1 !important;
+  }
+}
+@media all and (max-width: 450px) {
+  h2 {
+    margin: 1rem;
+  }
+  .flex {
+    border: 0;
+    margin: 0;
+    border-bottom: 2px solid #333;
+  }
+  .flex div:last-child {
+    margin: 1rem;
+  }
+  .column {
+    width: 100%;
+  }
+}
+@media all and (max-width: 400px) {
+  .flex {
+    flex-direction: column;
+  }
+  .flex div:first-child {
+    min-height: 200px;
+  }
+}
+
+.jellyfish.html header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: steelblue;
+  min-height: 10vh;
+  padding: 0px 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+.flex h3 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.flex h2 {
+  font-size: 1rem;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: Ubuntu, sans-serif;
+  margin: 1, 5rem;
+  background-color: hsl(250, 10%, 55%);
+}
+.flex {
+  margin: 5px;
+  display: flex;
+  border: 5px solid #333;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+.flex-column {
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: inline-start;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+aside > p {
+  margin: 0.5rem;
+}
+
+.Whales.html header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: steelblue;
+  min-height: 10vh;
+  padding: 0px 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+article {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.blue.jpeg {
+  width: 250px;
+}
+
+.climate.html header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: steelblue;
+  min-height: 10vh;
+  padding: 0px 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: inline-start;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+aside > p {
+  margin: 0.5rem;
+}
+
+
+.stingray.html 
+.flex div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.flex div:last-child {
+  margin: 2rem;
+  flex: 2;
+}
+.flex h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+.flex p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.flex p:last-of-type {
+  margin-bottom: 0;
+}
+.column {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+@media all and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .flex div {
+    flex: 1 !important;
+  }
+}
+@media all and (max-width: 450px) {
+  h2 {
+    margin: 1rem;
+  }
+  .flex {
+    border: 0;
+    margin: 0;
+    border-bottom: 2px solid #333;
+  }
+  .flex div:last-child {
+    margin: 1rem;
+  }
+  .column {
+    width: 100%;
+  }
+}
+@media all and (max-width: 400px) {
+  .flex {
+    flex-direction: column;
+  }
+  .flex div:first-child {
+    min-height: 200px;
+  }
 }
 
 
 
-.flex.container
-{
-    display: flex;
-    justify-content: space-evenly;
 
-}
-
-  img{
-      float: left;
-  }
-
-  .article
-  {
-      float: right;
-  }
-   
-  aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float:inline-start;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-  }
-  aside > p {
-    margin: .5rem;
-}
-
-
-
-  .jellyfish.html
-  
-    
-    * {
-      box-sizing: border-box;
-    }
-    body { 
-      min-height: 100vh;
-      font-family: Ubuntu, sans-serif;
-      margin: 2rem;
-      background-color:darkcyan;
-    }
-    .flex {
-      margin: 0;
-      display: flex;
-      border: 5px solid #333;
-      background-color: #fff;
-      margin-bottom: 2rem;
-    }
-    
-    .flex div:first-child {
-      flex: 1;
-      background-size: cover;
-      background-position: center;
-    }
-    .flex:first-of-type div:first-child {
-      background-image: url("fish.jpg");
-    }
-    .flex:last-of-type div:first-child {
-      background-image: url("jelly.jpg");
-    }
-
-    
-
-    .flex div:last-child {
-      margin: 2rem;
-      flex: 2;
-    }
-    .flex h3 {
-      font-size: 1.5rem;
-      margin-top: 0;
-      font-weight: 400;
-    }
-    .flex p {
-      font-size: 1rem;
-      line-height: 1.4;
-      font-weight: 400;
-    }
-    .flex p:last-of-type {
-      margin-bottom: 0;
-    }
-    .column {
-      width: 80%;
-      margin: 0 auto;
-      max-width: 700px;
-    }
-    @media all and (max-width: 600px) {
-      body { margin: 0; }
-      .flex div { flex: 1 !important; } 
-    }
-    @media all and (max-width: 450px) {
-      h2 {
-        margin: 1rem;
-      }
-      .flex {
-        border: 0;
-        margin: 0;
-        border-bottom: 2px solid #333;
-      }
-      .flex div:last-child {
-        margin: 1rem;
-      }
-      .column {
-        width: 100%;
-      }
-    }
-    @media all and (max-width: 400px) {
-      .flex { flex-direction: column; } 
-      .flex div:first-child {
-        min-height: 200px;
-      }
-    }
-  
-
-    .jellyfish.html 
-    
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: steelblue;
-            min-height: 10vh;
-            padding: 0px 20px;
-          }
-          
-          nav {
-            display: flex;
-            gap: 20px;
-          }
-          
-          nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 20px;
-          }
-          
-          p + p {
-            margin-top: 20px;
-          }
-
-          .flex h3
-          {
-              font-size: 1.5rem;
-              padding: 10px;
-          }
-
-          .flex h2
-          {
-              font-size: 1rem;
-          }
-          * {
-            box-sizing: border-box;
-          }
-          body { 
-            min-height: 100vh;
-            font-family: Ubuntu, sans-serif;
-            margin: 1,5rem;
-            background-color: hsl(250,10%,55%);
-          }
-          .flex {
-            margin: 5px;
-            display: flex;
-            border: 5px solid #333;
-            background-color: #fff;
-            margin-bottom: 2rem;
-          }
-          .flex-column
-          {
-              justify-content: space-around;
-              align-content:space-around;
-          }
-
-          
-          aside {
-            width: 40%;
-            padding-left: .5rem;
-            margin-left: .5rem;
-            float:inline-start;
-            box-shadow: inset 5px 0 5px -5px #29627e;
-            font-style: italic;
-            color: #29627e;
-          }
-          aside > p {
-            margin: .5rem;
-        }
-        
-
-
-          .Whales.html
-          header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: steelblue;
-            min-height: 10vh;
-            padding: 0px 20px;
-          }
-          
-          nav {
-            display: flex;
-            gap: 20px;
-          }
-          
-          nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 20px;
-          }
-          
-          p + p {
-            margin-top: 20px;
-          }
-
-          article
-          {
-            color: white;
-            font-size: 18px;
-            padding: 20px;
-          }
-
-          blue.whale.jpeg
-          {
-            
-              width: 250px;
-          
-          }
-
-          
-
-
-
-
-          .climate.html
-          header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: steelblue;
-            min-height: 10vh;
-            padding: 0px 20px;
-          }
-          
-          nav {
-            display: flex;
-            gap: 20px;
-          }
-          
-          nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 20px;
-          }
-          
-          p + p {
-            margin-top: 20px;
-          }
-
-           
-          aside {
-            width: 40%;
-            padding-left: .5rem;
-            margin-left: .5rem;
-            float:inline-start;
-            box-shadow: inset 5px 0 5px -5px #29627e;
-            font-style: italic;
-            color: #29627e;
-          }
-          aside > p {
-            margin: .5rem;
-        }
-
-
-          .squids.html
-          header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: steelblue;
-            min-height: 10vh;
-            padding: 0px 20px;
-          }
-          
-          nav {
-            display: flex;
-            gap: 20px;
-          }
-          
-          nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            padding: 20px;
-          }
-          
-          p + p {
-            margin-top: 20px;
-          }
-
-          img.vampiresquid.jpg
-          {
-              height: 10px;
-              width: 15px;
-          }
-
-          .♡.jpg
-          {
-            width: 250px;
-        }
-
-        .stringray.html 
-        .ray.jpg {
-          width: 250px;
-         
-            background-image: url("ray.jpg");
-          
-         
-            background-image: url("sting.jpg");
-          }
-      
-      
-      
-    
-
-    
-
-        
